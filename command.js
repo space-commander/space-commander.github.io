@@ -1,4 +1,4 @@
-console.log("Copyright 2017 Johnny Stene, All Rights Reserved.");
+console.log("Copyright 2017 Johnny Stene, Some Rights Reserved.");
 console.log("Hint: /command.js");
 
 var message;
