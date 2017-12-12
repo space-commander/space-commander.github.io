@@ -13,7 +13,7 @@ function eastereggdisplay()
 {
   if(message == undefined)
   {
-    randomNum = Math.floor((Math.random() * 10) + 1); //1 in 10 chance
+    randomNum = Math.floor((Math.random() * 100) + 1); //1 in 10 chance
     console.log(`randomNum == ${randomNum}`);
     if(randomNum == 5)
     {
