@@ -21,7 +21,7 @@ function eastereggdisplay()
     }
     else
     {
-      message = "Host on github and IFrame in google sites!!!! -Johnny";
+      //message = "Host on github and IFrame in google sites!!!! -Johnny";
     }
   }
   else
