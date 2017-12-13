@@ -9,7 +9,7 @@ function superHiddenFunction()
   return atob("SGVsbG8gdHJhdmVsZXIhIE15IG5hbWUgaXMgSm9obm55IFN0ZW5lLCBhbmQgSSBhbSB0aGUgZGV2ZWxvcGVyIG9mIHRoaXMgd2ViIGFwcC4gSSBob3BlIHlvdSBoYXZlIGEgZ29vZCBkYXksIGFuZCBiZSBzdXJlIHRvIGNoZWNrIG91dCBteSBHaXRIdWIgYXQgZ2l0aHViLmNvbS93aXBzZGFmb3gh");
 }
 
-function eastereggdisplay()
+function secret()
 {
   if(message == undefined)
   {
@@ -18,18 +18,14 @@ function eastereggdisplay()
     if(randomNum == 5)
     {
       message = atob("SGVsbG8hIFBsZWFzZSB1c2UgdGhlIGphdmFzY3JpcHQgY29uc29sZSBvbiB5b3VyIGJyb3dzZXIgKHVzdWFsbHkgQ3RybCtTaGlmdCtLKSB0byBydW4gdGhlIGZ1bmN0aW9uICJzdXBlckhpZGRlbkZ1bmN0aW9uKCk7Ii4gVGhpcyBpcyBhIHRvcCBzZWNyZXQgbWVzc2FnZSwgcGxlYXNlIGRvIG5vdCB0ZWxsIGFueW9uZSEgSGF2ZSBhIG5pY2UgZGF5Lg==");
-    }
-    else
-    {
-      //message = "Host on github and IFrame in google sites!!!! -Johnny";
+      document.getElementById("title").innerHTML = message;
     }
   }
   else
   {
     message = atob("SGVsbG8hIFBsZWFzZSB1c2UgdGhlIGphdmFzY3JpcHQgY29uc29sZSBvbiB5b3VyIGJyb3dzZXIgKHVzdWFsbHkgQ3RybCtTaGlmdCtLKSB0byBydW4gdGhlIGZ1bmN0aW9uICJzdXBlckhpZGRlbkZ1bmN0aW9uKCk7Ii4gVGhpcyBpcyBhIHRvcCBzZWNyZXQgbWVzc2FnZSwgcGxlYXNlIGRvIG5vdCB0ZWxsIGFueW9uZSEgSGF2ZSBhIG5pY2UgZGF5Lg==");
+    document.getElementById("title").innerHTML = message;
   }
-
-  document.getElementById("cool").innerHTML = message;
 }
 
-eastereggdisplay();
+secret();

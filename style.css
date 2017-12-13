@@ -22,10 +22,30 @@ div {
     left:0;
     right:0;
     overflow:hidden;
-    z-index:-1;
+    /*z-index:-1;*/
 }
 
 iframe {
   width: 100%;
   height: 85%;
+}
+
+a
+{
+  color: white;
+  font-size: 14pt;
+  height: 30px;
+}
+
+b {
+  font-size:14pt;
+}
+
+i {
+  font-size:14pt;
+}
+
+button
+{
+  z-index:;
 }
