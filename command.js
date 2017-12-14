@@ -1,4 +1,3 @@
-console.log("Copyright 2017 Johnny Stene, Some Rights Reserved.");
 console.log("Hint: /command.js");
 
 var Konami = function (callback) {
@@ -131,4 +130,4 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 		}
 }
 
-var easter_egg = new Konami('wipsdafox.github.io');
+var easter_egg = new Konami(function() { alert('Copyright 2017 Johnny Stene Some Rights Reserved')});
