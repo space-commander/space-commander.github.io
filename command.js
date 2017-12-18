@@ -24,6 +24,7 @@ function easterEgg2(text)
 	if(hash(text) == "baf7e7ad0ee64b5f24d23c54533023c3a6fe44daa1a3274176569adcf9c40eddbaa617b69b56ed5ae96a35ca8826895fc30faf66d86b4803738dc33f046214d5")
 	{
 		console.log("Picked lock 2/2.");
-		console.log(btoa("aHR0cHM6Ly9naXRodWIuY29tL3dpcHNkYWZveA=="));
+		console.log(btoa("RtaWj1lUFwuDmSU0Zsq3iMjh9v/wvK8TV16wp9QnmnE=));
+		console.log("Hint:  aesencryption.net");
 	}
 }
